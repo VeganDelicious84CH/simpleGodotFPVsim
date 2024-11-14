@@ -2,7 +2,7 @@
 an open Godot FPV game into which you can import your own OBJs / Blender assets
 
 
-[![Youtube-Video where I try it with a few assets imported from 3D warehouses](http://img.youtube.com/vi/YDV4oYfQaaI/0.jpg)](https://www.youtube.com/watch?v=YDV4oYfQaaI)
+[![Youtube-Video where I try it with a few assets imported from 3D warehouses](http://img.youtube.com/vi/YDV4oYfQaaI/1.jpg)](https://www.youtube.com/watch?v=YDV4oYfQaaI)
  
 
 ***Please notice:
