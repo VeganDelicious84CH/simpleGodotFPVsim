@@ -1,0 +1,24 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1731615722
+area_3d.gd::GDScript::-1::1730616946::0::1::::<>RefCounted<>::
+camera_3d.gd::GDScript::-1::1731541592::0::1::::<>Camera3D<>::
+emptygate.tres::StandardMaterial3D::115302902169271924::1731615460::0::1::::<><>::
+gatetrans.tres::StandardMaterial3D::3517395868883501991::1731615460::0::1::::<><>::
+label.gd::GDScript::-1::1731187064::0::1::::<>Label<>::
+label_2.gd::GDScript::-1::1731188412::0::1::::<>Label<>::
+label_3.gd::GDScript::-1::1731189060::0::1::::<>Label<>::
+mesh_instance_3d.gd::GDScript::-1::1731615460::0::1::::<>MeshInstance3D<>::
+motor2.mp3::AudioStreamMP3::6449878923297688535::1731614563::1731614563::1::::<><>::
+node_3d.gd::GDScript::-1::1731179178::0::1::::<>Node3D<>::
+README.txt::TextFile::-1::1729897406::0::1::::<><>::
+rigid_body_3d.gd::GDScript::-1::1731006502::0::1::::<>RigidBody3D<>::
+rigid_body_3d_2.gd::GDScript::-1::1730744832::0::1::::<>RigidBody3D<>::
+schach.jpg::CompressedTexture2D::196281720725651844::1731179368::1731612690::1::::<><>::
+timer2.gd::GDScript::-1::1731102786::0::1::::<>Timer<>::
+timer.gd::GDScript::-1::1731615118::0::1::::<>Timer<>::
+tor_1.gd::GDScript::-1::1731005746::0::1::::<>Area3D<>::
+Wood_Tower_Col.jpg::CompressedTexture2D::1941337461240642619::1730324050::1731615723::1::::<><>::
+world.tscn::PackedScene::2456886346884888299::1731615513::0::1::::<><>::res://mesh_instance_3d.gd<>res://camera_3d.gd<>uid://d17u00xqm0d2q::::res://sand.jpg<>uid://c1cs2jc0clc8c::::res://textures/wooden watch tower2.obj<>uid://cx5mtfo5h3x4r::::res://motor2.mp3<>res://timer.gd<>res://label.gd<>uid://c2cy4ltnb5pw::::res://schach.jpg<>res://label_2.gd<>res://node_3d.gd<>res://label_3.gd<>uid://bqd384pih8wih::::res://gatetrans.tres<>res://timer2.gd
+::res://obj/::1731612604
+::res://textures/::1731612768
+wooden watch tower2.obj::Mesh::6603021656727146372::1730324312::1731615723::1::::<><>::uid://2wnsrjjojx36::::res://Wood_Tower_Col.jpg
