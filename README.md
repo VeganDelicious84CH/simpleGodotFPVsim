@@ -4,7 +4,7 @@ an open Godot FPV game into which you can import your own OBJs / Blender assets
   
  
 
-[![Youtube-Video where I try it with a few assets imported from 3D warehouses:]([https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg](https://i.ytimg.com/an_webp/YDV4oYfQaaI/mqdefault_6s.webp?du=3000&sqp=CL6u2bkG&rs=AOn4CLBgqbUfSc9es4h5sSY1Mo2saoGzYg))](https://www.youtube.com/watch?v=YDV4oYfQaaI)
+[![Youtube-Video where I try it with a few assets imported from 3D warehouses:]([[https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg](https://i.ytimg.com/an_webp/YDV4oYfQaaI/mqdefault_6s.webp?du=3000&sqp=CL6u2bkG&rs=AOn4CLBgqbUfSc9es4h5sSY1Mo2saoGzYg)](https://i.ytimg.com/an_webp/YDV4oYfQaaI/mqdefault_6s.webp?du=3000&sqp=CL6u2bkG&rs=AOn4CLBgqbUfSc9es4h5sSY1Mo2saoGzYg))](https://www.youtube.com/watch?v=YDV4oYfQaaI)
 
 ***Please notice:
 - To run you need Godot 4.3. If you are on an integrated GPU-chip like IntelHD you'd have to start Godot with Open-GL start options (make a shortcut, right click it, settings and add "--rendering-driver opengl3" behind the exe under "target") bc often they don't support Vulkan. Additionaly you'd have to change the Rendering Mode in "Project Settings" inside Godot
