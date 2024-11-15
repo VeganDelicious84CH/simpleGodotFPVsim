@@ -1,6 +1,5 @@
 # simpleGodotFPVsim
-an open Godot FPV game into which you can import your own OBJs / Blender assets
-
+an open Godot FPV game into which you can import your own OBJs / Blender assets. It has a starting line and "gate"-blocks to clear. When all blocks are cleared, the timer stops. If you want more blocks for your track then you can duplicate them.
 
 [![Youtube-Video where I try it with a few assets imported from 3D warehouses](http://img.youtube.com/vi/YDV4oYfQaaI/1.jpg)](https://www.youtube.com/watch?v=YDV4oYfQaaI)
  
@@ -9,7 +8,7 @@ an open Godot FPV game into which you can import your own OBJs / Blender assets
 
 - To run you need Godot 4.3. If you are on an integrated GPU-chip like IntelHD you'd have to start Godot with Open-GL start options (make a shortcut, right click it, settings and add "--rendering-driver opengl3" behind the exe under "target") bc often they don't support Vulkan. Additionaly you'd have to change the Rendering Mode in "Project Settings" inside Godot
 
-- Controller Mapping: I use a Speedlink. When I tested a Logitech and a Trust one their right sitcks did not work properly. You'd likely have to adapt the input mapping to your controller. You find it inside Godot in "Project Settings", "Input" (2nd Tab from the left). 
+- Controller Mapping: I use a Speedlink. When I tested a Logitech and a Trust one out of the box their right sitck did not work properly at first. So you'd likely have to adapt the input mapping to your controller. You find those options inside Godot in "Project Settings", "Input" (2nd Tab from the left). 
 
 The relevant input menu entries are:
 
@@ -68,10 +67,17 @@ https://www.youtube.com/watch?v=V8H6X8BMIAc
 
 Sketchfab.com
 Free3d.com
+3dwarehouse.sketchup.com
+Ripping 3D-Models using Renderdoc (can even rip 3D-footage from GoogleMaps)
+
+
+ToDo-Things
+_the motor sound is my toothbrush, just knew nothing better that moment
+_physics settings are surely improvable to feel more crisp like Liftoff. I'm not satisfied with the exponential trust. Maybe part of the issue is also how Godot recognizes my stick (when i pull it over to the half then Godot already gives the full "1" value as if it was pulled fully over)
+_now order in which you clear the gates does not matter. Maybe adding an option to set an order of the gates.
 
 
 Credts:
 
--the motor sound is my toothbrush - just knew nothing better that moment  /
 -the demo object Watchtower is "Watch Tower made of Wood" from Free3d by 3dHaupt /
 -the basic idea of creating FPV-movement in a free engine was inspired by Nathan Loopz who did this in Unity, like and subscribe him. 
