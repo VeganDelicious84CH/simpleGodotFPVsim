@@ -46,17 +46,26 @@ ui_text_scroll_up
 
 ***How to import 3d-Objects :
 
-Godot accepts blender OBJ files and - when activated - also .BLEND files ( a video about how to activate Blender-import in Godot via Project Settings https://www.youtube.com/watch?v=G7o6moGPzh0 ).
-Then to import simply drag and drop files into the resources window (usually bottom left of the screen) where it says "res://"). OBJ files need a separate MTL files and texture-imagefiles for the textures to work). 
-Collision: For OBJ-Files you can create "Collision Mesh Twins" easily to make collision detection work. But the Probems of the OBJ files were: For me it was sometimes tricky to get the textures working. The MTL files had the wrong paths in them, textures had the wrong format etc.
-Now I could just drag and drop a Blend-file into Godot. Textures tended to be less difficult to get to appear now.
-But you can't create a collision mesh of a Blend-File in Godot afaik. So I most often use both: A .BLEND-File for the visual mesh as well as an .OBJ file which I can apply a collision mesh on (and then turn the untextured .OBJ invisible)
+- Godot accepts blender OBJ files and - when activated - also Blender's .BLEND files 
+
+- To import stuff simply drag and drop files into the resources window (bottom left of the screen) where it says "res://"). OBJ files need a separate MTL files and texture-imagefiles for the textures to work. The texture path in the MTL must be correct). The issues OBJ files were: For me it was sometimes tricky to get the textures working. The MTL files had the wrong paths in them, textures had the wrong format etc.
+
+- Blender was easier (activate .blend-import function if it is not already: https://www.youtube.com/watch?v=G7o6moGPzh0 ). You can just drag a Blend-file into Godot. Textures tended to be less difficult to get to appear now.
+
+- But afaik you can't create a collision mesh on a Blend-File in Godot. So I most often use both: A .BLEND-File for the visual mesh as well as an untextured .OBJ file which I can apply a collision mesh on (and then turn the untextured .OBJ invisible)
+
+- adding a collision mesh: For OBJ-Files you can create "Collision Mesh Twins" easily to make collision detection work. 
+
 -if you cannot spot your model after importing: it may be scaled too big or too small or may be displaced -> use menu "transformation" on the right screen edge to correct.
+
 -if your model is shiny white: probaby you forgot to delete the lightsource in Blender.
+
+
+
 
 ***How i made working TV screens 
 
-(the screen the guys are holding in my youtube video)
+(the screen the guys are holding in my youtube video):
 I first tried to incorporate it as an animation in Blender but couldn't get it to work. Then I found that tutorial on how to create a "sub viewport":
 https://www.youtube.com/watch?v=V8H6X8BMIAc
 
@@ -64,15 +73,22 @@ https://www.youtube.com/watch?v=V8H6X8BMIAc
 
 ***Good sources for 3d-Levels/objects:
 
-Sketchfab.com
-Free3d.com
-3dwarehouse.sketchup.com
-Ripping 3D-Models using Renderdoc (can even rip 3D-footage from GoogleMaps)
+- Sketchfab.com
+
+- Free3d.com
+
+- 3dwarehouse.sketchup.com
+
+- Ripping 3D-Models using Renderdoc (can even rip 3D-footage from GoogleMaps)
 
 
-ToDo-Things
+
+ToDo-Things:
+
 _the motor sound is my toothbrush, just knew nothing better that moment
+
 _physics settings are surely improvable to feel more crisp like Liftoff. I'm not satisfied with the exponential trust. Maybe part of the issue is also how Godot recognizes my stick (when i pull it over to the half then Godot already gives the full "1" value as if it was pulled fully over)
+
 _now order in which you clear the gates does not matter. Maybe adding an option to set an order of the gates.
 
 
