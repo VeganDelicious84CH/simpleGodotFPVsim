@@ -50,7 +50,7 @@ ui_text_scroll_up
 
 - To import stuff simply drag and drop files into the resources window (bottom left of the screen) where it says "res://"). OBJ files need a separate MTL files and texture-imagefiles for the textures to work. The texture path in the MTL must be correct). The issues OBJ files were: For me it was sometimes tricky to get the textures working. The MTL files had the wrong paths in them, textures had the wrong format etc.
 
-- Blender was easier (activate .blend-import function if it is not already: https://www.youtube.com/watch?v=G7o6moGPzh0 ). You can just drag a Blend-file into Godot. Textures tended to be less difficult to get to appear now.
+- Blender was easier (activate .blend-import function if it is not already: https://www.youtube.com/watch?v=G7o6moGPzh0 ). To integrate all textures into your .Blend file, you have to activate "pack data" in "file > external data". Delete the lightsource in your Blender scene. You can then just save it and drag the Blend-file into Godot. Textures tended to be less difficult to get to appear now than with OBJs imao.
 
 - But afaik you can't create a collision mesh on a Blend-File in Godot. So I most often use both: A .BLEND-File for the visual mesh as well as an untextured .OBJ file which I can apply a collision mesh on (and then turn the untextured .OBJ invisible)
 
