@@ -32,4 +32,4 @@ func _process(delta: float) -> void:
 func _on_area_3d_area_entered(area: Area3D) -> void:
 	parent = get_parent()
 	print("collided with2")
-	print(parent)
+	#print(parent)

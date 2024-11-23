@@ -43,7 +43,7 @@ func _process(delta: float) -> void:
 		#print(winkely)
 		winkely = 0 - winkely
 	
-	print(winkely)
+	#print(winkely)
 
 	if winkely < 0.2  and voldb > -80:
 		voldb = voldb - 1
@@ -81,7 +81,7 @@ func _process(delta: float) -> void:
  
 	if winkely > 0.9:
 		voldb = 24
-		print(voldb)
+		#print(voldb)
 	 
  
 

@@ -20,7 +20,6 @@ func _process(delta: float) -> void:
 	if Input.is_action_pressed("ui_text_scroll_down"):
 		#print("hallo")
 		rotate_object_local(Vector3(-1, 0, 0), (0.01))
-		 
 		
 			
 			

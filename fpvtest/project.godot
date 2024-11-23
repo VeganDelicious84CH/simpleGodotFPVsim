@@ -19,6 +19,10 @@ config/icon="res://icon.svg"
 
 GlobalTimer="*res://timer.gd"
 
+[display]
+
+window/stretch/mode="canvas_items"
+
 [input]
 
 ui_left={

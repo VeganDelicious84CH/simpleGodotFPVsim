@@ -43,7 +43,7 @@ func _ready() -> void:
 
 
 func _on_tor_2_body_entered(body: Node3D) -> void:
-	print(self)
+	#print(self)
 	self.visible = false
 	GlobalTimer.tore.erase(self)
 	
