@@ -1,0 +1,5 @@
+[gd_resource type="PhysicsMaterial" format=3 uid="uid://8jiwif5vjskx"]
+
+[resource]
+rough = true
+absorbent = true
