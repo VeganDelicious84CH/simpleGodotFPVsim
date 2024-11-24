@@ -1,5 +1,5 @@
 # simpleGodotFPVsim
-an open Godot FPV game into which you can import your own OBJs / Blender assets. It has a starting line and "gate"-blocks to clear. When all blocks are cleared, the timer stops. If you want more blocks for your track then you can duplicate them (witout having to assign them in the script - just duplicate an existing gate's parent 3D node).
+an open Godot FPV game into which you can import your own OBJs / Blender assets. All pretty raw, collision detection still has flaws (see todo list). It has a starting line and "gate"-blocks to clear. When all blocks are cleared, the timer stops. If you want more blocks for your track then you can duplicate them (witout having to assign them in the script - just duplicate an existing gate's parent 3D node).
 
 [![Youtube-Video where I try it with a few assets imported from 3D warehouses](http://img.youtube.com/vi/YDV4oYfQaaI/1.jpg)](https://www.youtube.com/watch?v=YDV4oYfQaaI)
  
@@ -85,11 +85,9 @@ https://www.youtube.com/watch?v=V8H6X8BMIAc
 
 ToDo-Things:
 
+_I have to fix the collision. Godot's collision does not work well with fast moving Rigidbody3Ds. I tried to additionally add a larger Area3D which cuts the thrust before the actual collision happens but even then the Rigidbody went through walls. I discovered Raycasting and will try to implement that if it is not too hard.
+
 _the motor sound is my toothbrush, just knew nothing better that moment
-
-_physics settings are surely improvable to feel more crisp like Liftoff. I'm not satisfied with the exponential trust. Maybe part of the issue is also how Godot recognizes my stick (when i pull it over to the half then Godot already gives the full "1" value as if it was pulled fully over)
-
-_now order in which you clear the gates does not matter. Maybe adding an option to set an order of the gates.
 
 
 Credts:
