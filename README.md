@@ -2,7 +2,9 @@
 an open Godot FPV game into which you can import your own OBJs / Blender assets. All pretty raw, collision detection still has flaws (see todo list). It has a starting line and "gate"-blocks to clear. When all blocks are cleared, the timer stops. If you want more blocks for your track then you can duplicate them (witout having to assign them in the script - just duplicate an existing gate's parent 3D node).
 
 [![Youtube-Video where I try it with a few assets imported from 3D warehouses](http://img.youtube.com/vi/YDV4oYfQaaI/1.jpg)](https://www.youtube.com/watch?v=YDV4oYfQaaI)
- 
+
+Most Recent File: https://drive.google.com/drive/folders/1DHhBWyuPRZ6l8Eq_8G8b8m79HtvyhDS6?usp=sharing
+
 ***Please notice:
 
 - To run you need Godot 4.3. If you are on an integrated GPU-chip like IntelHD you'd have to start Godot with Open-GL start options (make a shortcut, right click it, settings and add "--rendering-driver opengl3" behind the exe under "target") bc often they don't support Vulkan. Additionaly you'd have to change the Rendering Mode in "Project Settings" inside Godot
