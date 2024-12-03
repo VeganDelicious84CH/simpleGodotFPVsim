@@ -1,5 +1,5 @@
 # simpleGodotFPVsim
-an open Godot FPV game into which you can import your own OBJs / Blender assets. All pretty raw, collision detection still has flaws (see todo list). It has a starting line and "gate"-blocks to clear. When all blocks are cleared, the timer stops. If you want more blocks for your track then you can duplicate them (witout having to assign them in the script - just duplicate an existing gate's parent 3D node).
+an open Godot FPV game into which you can import your own OBJs / Blender assets. All pretty raw. At least I fixed collision detection now pretty much (using Raycast). It has a starting line and "gate"-blocks to clear. When all blocks are cleared, the timer stops. If you want more blocks for your track then you can duplicate them (witout having to assign them in the script - just duplicate an existing gate's parent 3D node).
 
 [![Youtube-Video where I try it with a few assets imported from 3D warehouses](http://img.youtube.com/vi/YDV4oYfQaaI/1.jpg)](https://www.youtube.com/watch?v=YDV4oYfQaaI)
 
@@ -28,7 +28,7 @@ StickRightLeft /
 StickRightDown
 
 
-repair button (fixes drone's imbalance after crash):
+repair button (fixes drone's imbalance after crash. Or resets you to the starting position in case of being stuck):
 ui_text_indent
 
 
@@ -40,8 +40,10 @@ ui_text_scroll_up
 - Gates are scalable in sizes as well as in quantity without having to change the script: To add more gates just duplicate an existing gate's parent 3D node.
 
 - The nice Watchtower demo model is not made by me of course. It is the work of user 3dHaupt of free3d.com. Thank you! The models full name is "Watch Tower made of Wood".
+
+- Drone Sound from Freesound org by Simeonradivoev
  
-- You'll have to play around with the gravity values to adapt them to your liking as well as with the thrust in the script (click the symbol of a scroll which is next to the drone's 3dbody (right of its title) in the node list which is on the leftmost side of the screen).
+- Maybe You'll have to play around with the gravity values to adapt them to your liking as well as with the thrust in the script (click the symbol of a scroll which is next to the drone's 3dbody (right of its title) in the node list which is on the leftmost side of the screen).
 
 - The following Video introduced me to Godot, it also covers creating a collision detection mesh for your 3d object: https://www.youtube.com/watch?v=A3HLeyaBCq4
 
@@ -85,11 +87,6 @@ https://www.youtube.com/watch?v=V8H6X8BMIAc
 
 
 
-ToDo-Things:
-
-_I have to fix the collision. Godot's collision does not work well with fast moving Rigidbody3Ds. I tried to additionally add a larger Area3D which cuts the thrust before the actual collision happens but even then the Rigidbody went through walls. I discovered Raycasting and will try to implement that if it is not too hard.
-
-_the motor sound is my toothbrush, just knew nothing better that moment
 
 
 Credts:
