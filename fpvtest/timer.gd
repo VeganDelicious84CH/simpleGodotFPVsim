@@ -11,6 +11,8 @@ var resetrace = "false"
 var numberofgates = 0
 var reset = 1
 var counterstarted = false
+var raycasthit = false
+var realspeedray = 0
 
 func round_to_dec(num, digit):
 	return round(num * pow(10.0, digit)) / pow(10.0, digit)
@@ -50,37 +52,37 @@ func _process(delta: float) -> void:
 	
 	
 		
-	if winkely > 0.2:
+	if winkely > 0.1:
 		voldb = 2
 		#print(winkely)
  
 		
 	if winkely > 0.3:
-		voldb = 4
+		voldb = 3
 		#print(winkely)
 	 
 	if winkely > 0.4:
-		voldb = 6
+		voldb = 4
 		#print(winkely)
 	 
 	if winkely > 0.5:
-		voldb = 8
+		voldb = 5
 		
 	if winkely > 0.6:
-		voldb = 10
+		voldb = 6
 		
 		
 	if winkely > 0.7:
-		voldb = 12
+		voldb = 7
 		
 			
 	if winkely > 0.8:
-		voldb = 15
+		voldb = 8
 			
 		
  
 	if winkely > 0.9:
-		voldb = 24
+		voldb = 9
 		#print(voldb)
 	 
  

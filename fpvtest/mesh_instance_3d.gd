@@ -19,12 +19,12 @@ func _process(delta: float) -> void:
 	
 	if GlobalTimer.takt > 0.5:
 		#self.visible = false
-		self.material_override = preload("res://emptygate.tres")
-	
+		#self.material_override = preload("res://emptygate.tres")
+		pass
 	if GlobalTimer.takt < 0.5:
 		#self.visible = true
-		self.material_override = preload("res://gatetrans.tres")
-		
+		#self.material_override = preload("res://gatetrans.tres")
+		pass
 	
 	
 
