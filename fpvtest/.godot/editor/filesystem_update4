@@ -1,4 +1,4 @@
 res://world.tscn
 res://mesh_instance_3d.gd
-res://emptygate.tres
 res://gatetrans.tres
+res://ray_cast_3d.gd
