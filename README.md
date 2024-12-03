@@ -4,6 +4,7 @@ an open Godot FPV game into which you can import your own OBJs / Blender assets.
 [![Youtube-Video where I try it with a few assets imported from 3D warehouses](http://img.youtube.com/vi/YDV4oYfQaaI/1.jpg)](https://www.youtube.com/watch?v=YDV4oYfQaaI)
 
 most recent version on GoogleDrive: https://drive.google.com/drive/folders/1DHhBWyuPRZ6l8Eq_8G8b8m79HtvyhDS6?usp=drive_link
+because I got issues with uploading as a Git. Somehow I don't really grasp how Github works I admit.
 
 ***Please notice:
 
