@@ -1,3 +1,0 @@
-StandardMaterial3D
-Resource
-GDScript
